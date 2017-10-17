@@ -1,0 +1,29 @@
+/* GLOBAL SETTINGS*/
+.green-color{color: #86ffc2;text-shadow: 2px 2px 2px #000000;}
+
+section {
+
+}
+
+/* NAV SETTINGS */
+#logoMarca{
+    width: 10em;
+    margin: -0.8em 1em 1em 1em ;
+}
+
+.navbar-main{
+    background-color: #03275A;
+    padding: 1em;
+}
+.navbar-main li{
+    margin: 0.2em;
+}
+#menuCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* SLIDES */
+
+
+/* FOOTER SETTINGS */
