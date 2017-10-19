@@ -11,7 +11,9 @@ body {
     background-color: rgba(204, 212, 243, 0.77);
 }
 .green-color{color: #86ffc2;text-shadow: 2px 2px 2px #000000;}
-
+.carousel-item img{
+    color: black;
+}
 /* NAV SETTINGS */
 #logoMarca{
     width: 10em;
@@ -31,8 +33,8 @@ body {
     align-items: center;
 }
 /* SLIDES */
-.slidesHome img{
-    width: 500px;
+.staticHome img{
+    width: 60em;
 }
 
 /* CUSTOM TEXTS */
