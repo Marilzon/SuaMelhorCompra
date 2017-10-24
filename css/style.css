@@ -67,6 +67,11 @@ body {
 .text-margin{
     margin: 0 2em 1em 2em;
 }
+.bg-form{
+    background-color: rgba(0, 0, 0, 0.24);
+    padding: 1em;
+    border-radius: 5px;
+}
 
 /* FOOTER SETTINGS */
 footer{
