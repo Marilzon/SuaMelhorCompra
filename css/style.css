@@ -18,16 +18,15 @@ body {
     align-items: center;
 }
 /* NAV SETTINGS */
-.navbar-brand{
 
-}
 #logoMarca{
     width: 5em;
 }
 #toogler-svg{
     border-radius: 0px;
-    width: 2em;
-    color: #fff;
+    width: 2.5em;
+    border: 2px solid #fff;
+    border-radius: 5px;
 }
 #toogler-svg:hover{cursor: pointer;}
 .navbar-main{
@@ -44,10 +43,24 @@ body {
     text-align: center;
     transition: 0.5s;
 }
-
+/*LOGIN NAV*/
+.login-nav{
+    background-color: #fff;
+    display: inline-flex;
+    float: right;
+}
 /* SLIDES */
 .staticHome img{
     width: 60em;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.50);
+    border-radius: 1em;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 1em;
+    border-radius: 5px;
 }
 
 /* CUSTOM TEXTS */
@@ -61,6 +74,32 @@ footer{
     padding: 1em;
     color: #fff;
 }
+/*LOJA*/
+.price-option__purchase {
+  
+  display: block;  
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+    background-color: #fff;
+    border-radius: 5px;
+  
+}
+.price-option__purchase:hover{
+    text-decoration: none;
+}
+figure{
+    margin: 0.5em;
+    background-color: #000;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+
 /* RESPONSIVE */
 
 @media (max-width: 576px) { 
